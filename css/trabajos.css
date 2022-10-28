@@ -1,0 +1,137 @@
+.trabajos{
+   background-color: #d8d4e6;
+
+}
+
+.trabajos__titulo{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2rem;
+    text-align: center;
+    color: #464646;
+    padding-top: 50px;
+    text-decoration: underline;
+ }
+
+ .trabajos__contenido{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    justify-content: center;
+ }
+
+ .trabajos__contenido-2{
+   display: flex;
+   flex-direction: row-reverse;
+   padding: 20px;
+   justify-content: center;
+ }
+
+ .trabajos__contenido-imagen img{
+    width: 600px;
+    height: 300px;
+    border-radius: 8px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.55);
+
+ }
+
+ .trabajos__info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ }
+
+ .trabajos__info-texto{
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.23rem;
+    line-height: 26px;
+    color: #464646;
+    padding: 20px;
+    
+ }
+
+
+
+ .trabajos__info-botones button{
+   padding: 15px;
+   background: #ffffff;
+   color: #2A7AE4;
+   border: 1px solid #2A7AE4;
+   font-size: 1rem;
+   border-radius: 10px;
+   margin: 10px;
+}
+
+.trabajos__info-botones a{
+   color: #2A7AE4;
+   text-decoration: none;
+}
+.trabajos__info-botones a:hover{
+   color: #FFFFFF;
+   text-decoration: none;
+}
+
+.trabajos__info-botones button:hover{
+   padding: 20px;
+   background: #2A7AE4;
+   color: #FFFFFF;
+   border: 1px solid #FFFFFF;
+   font-size: 1rem;
+   border-radius: 10px;
+   margin: 10px;
+}
+
+/* ---- Tablets ----*/
+
+@media only screen and (max-device-width: 810px){
+
+   .trabajos{
+      display: flex;
+      flex-direction: column;
+      
+   }
+   .trabajos__contenido{
+      flex-direction: column;
+      align-items: center;
+   }
+
+   .trabajos__contenido-2{
+      flex-direction: column;
+      align-items: center;
+   }
+
+   .trabajos__info-texto{
+      font-size: 1rem;
+      line-height: 26px;
+      color: #464646;
+      text-align: center; 
+      
+   }
+   .trabajos__info-botones{
+   align-self: center;
+   }
+   .trabajos__info-botones button{
+      font-size: 0.8rem;
+      
+   }
+   .trabajos__info-botones button:hover{
+      font-size: 0.8rem;
+   }
+
+   /* ---- Mobile ----*/
+
+   @media only screen and (max-device-width: 480px){
+      .trabajos__contenido-imagen img{
+         padding: 10px;
+         width: 400px;
+         height: 200px;
+      }
+   }
+}
+
+
+

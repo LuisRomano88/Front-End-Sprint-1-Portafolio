@@ -1,0 +1,139 @@
+.contacto__contenedor{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #f2f1f7;
+    padding: 50px;
+}
+
+.contacto_imagen{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contacto__formulario{
+    border: 0.5px solid #464646;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.55);
+}
+
+
+.contacto__formulario form{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+
+
+.contacto__formulario h2{
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 2rem;
+line-height: 38px;
+color: #464646;
+padding: 10px;
+
+}
+
+.contacto__formulario p{
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 1rem;
+line-height: 19px;
+color: #464646;
+
+}
+
+.contacto__formulario-input{
+    width: 350px;
+    height: 50px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    margin: 10px 0 10px 0;
+
+}    
+
+.contacto__formulario-button{
+    margin: 10px 0 10px 0;
+    background: #ffffff;
+    color: #2A7AE4;
+    border: 1px solid #2A7AE4;
+    font-size: 1rem;
+    border-radius: 5px;
+    width: 110px;
+    height: 40px;
+}
+
+.contacto__formulario-textarea, .contacto__formulario-input::placeholder {
+    color: blue;
+    font-size: 0.8rem;
+    text-align: start;
+}
+
+
+/* ---- validaciones ---- */
+
+
+#span-error-nombre, #span-error-email, #span-error-telefono, #span-error-asunto, #span-error-textarea{
+    font-size: 0.8rem;
+    color: red;
+    font-weight: 200;
+}
+
+#errorCamposVacios{
+    display: none;
+
+    background-color:yellow;
+    width: 350px;
+    height: 50px;
+
+}
+#errorCamposVacios p{
+    color: red;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#camposCorrectos{
+    display: none;
+    background-color:green;
+    width: 350px;
+    height: 50px;
+
+}
+#camposCorrectos p{
+    color: white;
+    font-size: 1rem;
+    margin-top: 5px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+/* ---- Tablet ----*/ 
+
+
+@media only screen and (max-device-width: 810px){
+    .contacto_imagen{
+        display: none;
+    }
+    .contacto__formulario-input{
+        width: 100%;
+    }   
+
+    .contacto__formulario form{
+        justify-content: center;
+    }
+}

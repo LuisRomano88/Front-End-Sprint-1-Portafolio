@@ -1,0 +1,119 @@
+.skill-hobbies{
+    background-color: #d8d4e6;
+}
+
+
+.skills__titulo, .hobbies__titulo{
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 2rem;
+text-align: center;
+color: #464646;
+text-decoration: underline;
+padding-top: 50px;
+
+}
+
+.grid__container {
+    display: grid;
+    justify-content: center;
+    column-gap: 30px; 
+    padding: 50px;
+    grid-template-columns: auto auto auto auto auto auto;   
+    
+    
+  }
+  .grid__item-skills{
+    width: 50px;
+    height: 50px;
+    padding: 25px;
+  }
+
+  .grid__item-skills:hover, .grid__item-hobbies:hover {
+    -webkit-transform:scale(1.3);
+    transform:scale(1.3);
+}
+.contenedor {
+    overflow:hidden;
+}
+
+
+  .grid__item-skills:nth-child(1){
+    background: url(../imagenes/css-filetyp-icon.ico) center / cover no-repeat;
+  }
+
+
+  .grid__item-skills:nth-child(2){
+    background: url(../imagenes/html-filetype-icon.ico) center / cover no-repeat;
+
+  }
+
+  .grid__item-skills:nth-child(3){
+    background: url(../imagenes/javascript-icon.ico) center / cover no-repeat;
+    
+}
+.grid__item-skills:nth-child(4){
+    background: url(../imagenes/node-icon.ico) center / cover no-repeat;
+
+}
+.grid__item-skills:nth-child(5){
+    background: url(../imagenes/java_icon.ico) center / cover no-repeat;
+}
+.grid__item-skills:nth-child(6){
+    background: url(../imagenes/sql-icon.ico) center / cover no-repeat;
+}
+
+
+
+.grid__item-hobbies{
+    display: grid;
+    width: 50px;
+    height: 50px;
+    padding: 25px;
+}
+
+
+.grid__item-hobbies:nth-child(1){
+    background: url(../imagenes/futbol-icon.ico) center / cover no-repeat;
+
+}
+.grid__item-hobbies:nth-child(2){
+    background: url(../imagenes/boxeo.ico) center / cover no-repeat;
+}
+.grid__item-hobbies:nth-child(3){
+    background: url(../imagenes/guitar-icon.ico) center / cover no-repeat;
+}
+.grid__item-hobbies:nth-child(4){
+    background: url(../imagenes/ticket-icon.ico) center / cover no-repeat;
+}
+.grid__item-hobbies:nth-child(5){
+    background: url(../imagenes/cocinar-icon.ico) center / cover no-repeat;
+}
+.grid__item-hobbies:nth-child(6){
+    background: url(../imagenes/moto-icon.ico) center / cover no-repeat;
+}
+
+/* --- tablet --- */
+@media only screen and (max-device-width: 810px){
+    .grid__container {
+        gap: 50px 50px; 
+        grid-template-columns: auto auto auto ;    
+      }
+}
+
+/* --- Moblile ---*/
+
+@media only screen and (max-device-width: 480px){
+    .grid__container {
+        gap: 50px 50px; 
+        grid-template-columns: auto auto ;    
+      }
+}
+
+
+
+
+
+

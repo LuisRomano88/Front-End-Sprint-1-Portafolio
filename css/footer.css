@@ -1,0 +1,38 @@
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 150px;
+    background-color: #cbc5de;
+    padding: 20px;
+}
+
+.footer__parrafo{
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 19px;
+    text-align: center;
+    
+}
+
+.footer__iconos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    
+  }
+
+  .footer__iconos-redes img{
+    width: 40px;
+    height: 40px;
+  }
+
+  .footer__iconos-redes{
+    padding: 20px;
+
+  }
+

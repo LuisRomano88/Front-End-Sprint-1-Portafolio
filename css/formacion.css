@@ -1,0 +1,134 @@
+.formacion{
+  background-color: #f2f1f7;
+
+}
+
+.formacion__titulo{
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2rem;
+    padding: 20px;
+    padding-top: 50px;
+    text-align: center;
+    color: #464646;
+    text-decoration: underline;
+    
+    }
+
+
+.grid__container-formacion{
+    display: grid;
+    align-items: start;
+    column-gap: 30px;
+    padding: 50px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;    
+    
+}
+
+.grid__item-formacion{
+
+    padding: 10px;  
+    
+}
+
+.grid__item-formacion img{
+  width: 200px;
+  height: 200px;
+  background: center / cover no-repeat;
+  border-radius: 50%;
+}
+
+.grid__item-formacion h4{
+  text-align: left;
+  margin-top: 10px;
+  font-size: 1rem;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 300;
+  color: #464646;
+  
+  
+}
+
+.grid__item-formacion p{
+  text-align: left;
+  font-size: 0.9rem;
+  padding: 5px;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 200;
+  color: #464646;
+  
+}
+
+  /*--- tablet ---*/
+
+  @media only screen and (max-device-width: 810px) { 
+    
+    .grid__container-formacion{
+      column-gap: 10px;
+      align-items: start;
+    }
+    .grid__item-formacion{
+      align-items: start;
+  }
+
+  .grid__item-formacion img{
+    width: 100px;
+    height: 100px;
+    background: center / cover no-repeat;
+  }
+  .grid__item-formacion h4{
+    font-size: 1rem;
+    font-weight: 200;
+  }
+  .grid__item-formacion p{
+    font-size: 0.7rem;
+    font-weight: 100;
+  }
+}
+
+
+  /*--- mobile ---*/
+
+  @media only screen and (max-device-width: 480px){
+
+    .grid__container-formacion{
+      
+      grid-template-columns: auto ;    
+      padding: 20px;
+      text-align: center;
+  }
+  .grid__item-formacion img{
+    width: 150px;
+    height: 150px;
+    background: center / cover no-repeat;
+    
+  }
+
+  .grid__item-formacion h4{
+    font-size: 1rem;
+    font-weight: 200;
+    text-align: center;
+  }
+  
+ 
+  
+  .grid__item-formacion p{
+    font-size: 0.7rem;
+    font-weight: 100;
+    text-align: center;
+  }
+  
+  
+  
+  }
+
+
+
+
+
+
+

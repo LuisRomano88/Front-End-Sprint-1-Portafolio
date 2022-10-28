@@ -1,0 +1,89 @@
+
+
+
+/* --- Desktop --- */
+
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital@1&family=Montserrat:wght@300&family=Open+Sans:wght@300;400;700&display=swap');
+
+.sobreMi{
+    padding: 20px;
+    background:#f2f1f7;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+ 
+}
+
+.sobreMi__titulo{
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 26px;
+    margin-bottom: 30px;
+    color: #464646;
+    margin-left: 12%;
+    
+}
+
+.sobreMi__parrafo{
+    font-family: 'Comic Neue', cursive;
+    font-weight: 300;
+    font-size: 1.5rem;
+    line-height: 20px;
+    margin-bottom: 25px;
+    color: #464646;
+    width: 500px;
+    margin-left: 12%;
+}
+
+/* ---- Tablet ----*/
+
+@media only screen and (max-device-width: 810px) { 
+
+    .sobreMi{
+        padding: 20px;
+        justify-items: flex-start;
+        
+        
+    }
+
+    .sobreMi__titulo{
+        font-weight: 700;
+        font-size: 1.3rem;
+        line-height: 26px;
+        margin-left: 0px;
+    }
+
+    .sobreMi__parrafo{
+
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 16px;
+        margin-left: 0px;
+    }
+}
+
+/* --- Moblile ---*/
+
+@media only screen and (max-device-width: 480px){
+
+   
+
+    .sobreMi__titulo{
+
+
+        font-weight: 700;
+        font-size: 1rem;
+        line-height: 38px;
+        
+    }
+
+    .sobreMi__parrafo{
+
+        font-weight: 400;
+        font-size: 0.8rem;
+        line-height: 19px;
+        width: 100%;
+    }
+}
+
