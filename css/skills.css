@@ -55,13 +55,9 @@ padding-top: 50px;
     
 }
 .grid__item-skills:nth-child(4){
-    background: url(../imagenes/node-icon.ico) center / cover no-repeat;
-
-}
-.grid__item-skills:nth-child(5){
     background: url(../imagenes/java_icon.ico) center / cover no-repeat;
 }
-.grid__item-skills:nth-child(6){
+.grid__item-skills:nth-child(5){
     background: url(../imagenes/sql-icon.ico) center / cover no-repeat;
 }
 
